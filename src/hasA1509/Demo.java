@@ -1,4 +1,4 @@
-package hasA;
+package hasA1509;
 
 public class Demo {
 
@@ -16,6 +16,8 @@ public class Demo {
 		p.setMatherName("xyz");
 		
 		s.setDetails(p);
+		
+		System.out.println(s.toString());
 		
 		System.out.println(s.getId());
 		System.out.println(s.getName());

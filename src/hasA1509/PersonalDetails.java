@@ -1,6 +1,11 @@
-package hasA;
+package hasA1509;
 
 public class PersonalDetails {
+
+	@Override
+	public String toString() {
+		return "PersonalDetails [fatherName=" + fatherName + ", matherName=" + matherName + "]";
+	}
 
 	private String fatherName;
 	

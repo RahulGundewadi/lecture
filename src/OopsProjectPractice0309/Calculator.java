@@ -4,25 +4,26 @@ public class Calculator {
 	
 	
 	public int Addition(int a , int b) {
-		
-		return a+b;	
+		//int sum = a+b;
+		//System.out.println(sum);
+		return  0;	
 		
 	}
 
 	public int Addition(int a , int b , int c) {
 		
-		return  a+b+c;	
+		return  0;	
 	}
 
 	public int Addition(int a , int b , int c ,int d) {
 		
-		return  a+b+c+d;	
+		return 0;	
 		
 	}
 
 	public int Addition(int a , int b , int c ,int d , int e) {
 		
-		return a+b+c+d+e;	
+		return 0;	
 	}
 	
 	
@@ -32,43 +33,43 @@ public class Calculator {
 
 	public int Substraction(int a , int b) {
 		
-		return a-b;		
+		return 0;		
 	}
 
 	public int Substraction(int a , int b , int c) {
 		
-		return a-b-c;
+		return 0;
 	}
 
 	public int Substraction(int a , int b , int c ,int d) {
 		
-		return a-b-c-d;
+		return 0;
 	}
 
 	public int Substraction(int a , int b , int c ,int d , int e) {
 		
-		return a-b-c-d-e;
+		return 0;
 	}
 
 	
 	
 	//Multippliction
 	public int Multipliction(int a , int b) {
-		return a*b;
+		return 0;
 			
 	}
 
 	public int Multipliction(int a , int b , int c) {
-		return a*b*c;
+		return 0;
 	}
 
 	public int Multipliction(int a , int b , int c ,int d) {
-		return a*b*c*d;
+		return 0;
 		
 	}
 
 	public int Multipliction(int a , int b , int c ,int d , int e) {
-		return a*b*c*d*e;
+		return 0;
 		
 	}
 
