@@ -14,7 +14,7 @@ public class IntermediateOperators {
 		
 		l.stream()
 		.filter(x -> x %3 ==0)
-		.filter(x -> x% 2 == 0)
+		.filter(x -> x% 2 == 0);
 		
 	}
 }

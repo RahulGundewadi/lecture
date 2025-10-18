@@ -16,10 +16,13 @@ public class Test2 {
 	
 	Function<String , Integer> alp = s -> s.length();
 		
-
 		int as = alp.apply("monday");
 		System.out.println(as);
 	
+		//*********
+		Function<Integer, Integer> addTwo = x -> x+2;
+		Function<Integer, Integer> addThree = x -> x+3;
 		
+		System.out.println(addTwo.andThen(addThree).apply(5));
 	}
 }
